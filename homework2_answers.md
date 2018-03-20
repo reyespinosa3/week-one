@@ -32,3 +32,13 @@ git checkout [branch name]
 3. Why would you want to use a branch other than the default master?
 To ensure code works and is error free before commiting changes to the master code
 
+1. Give an example for when you would use git merge and give an example for when it would be better to submit a pull request to have your branch merged
+Merge - when I have changes to commit to the code
+Pull - when I want to use the latest version of the code
+
+
+2. What command do you use to send all of the work that you've done locally to your remote repository?
+git add .
+
+
+
