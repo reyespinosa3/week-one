@@ -18,7 +18,7 @@ git reset
 git checkout
 
 4. Why is it important to use -- when changing files back to a previous state?
-To help identify when changes were made
+To ensure when the file is reverted, it does not also change a branch of the same name.
 
 5. Why might you want to reset your files back to a previous commit?
 Poorly written code,too many bugs, or you are completely lost looking at the new code you (or others) have written
