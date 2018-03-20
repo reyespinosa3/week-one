@@ -23,3 +23,12 @@ To help identify when changes were made
 5. Why might you want to reset your files back to a previous commit?
 Poorly written code,too many bugs, or you are completely lost looking at the new code you (or others) have written
 
+1. What command do you use to create a branch?
+git branch [branch name]
+
+2. What command do you use to use a different branch?
+git checkout [branch name]
+
+3. Why would you want to use a branch other than the default master?
+To ensure code works and is error free before commiting changes to the master code
+
