@@ -12,7 +12,11 @@ h2 {
 h3 {
   color: black;
 }
+img {
+  float: left;
+}
 nav {
+  clear: left;
   display: block;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 36px;
