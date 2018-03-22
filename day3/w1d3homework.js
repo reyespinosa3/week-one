@@ -71,3 +71,56 @@ var ninja = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
 for (i=0; i<ninja.length; i++) {
   console.log(ninja[i].toUpperCase());
 }
+
+//RETURN OF THE CLOSET
+const kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "GA hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
+
+// Thom's closet is more complicated. Check out this nested data structure!!
+const thomsCloset = [
+  [
+    // These are Thom's shirts
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+  ],[
+    // These are Thom's pants
+    "grey jeans",
+    "jeans",
+    "PJs"
+  ],[
+    // Thom's accessories
+    "wool mittens",
+    "wool scarf",
+    "raybans"
+  ]
+];
+
+ // var kristynsShoe = kristynsCloset[0];
+ // kristynsCloset.shift();
+ // thomsCloset[2].push(kristynsShoe);
+ // console.log(thomsCloset);
+
+ let outfit1 = [];
+ let outfit2 = [];
+ let outfit3 = [];
+ outfit1.push(kristynsCloset[0]);
+ outfit1.push(thomsCloset[0][0]);
+ outfit1.push(thomsCloset[1][0]);
+ console.log("Today we're wearing " + outfit1);
+ outfit2.push(kristynsCloset[1]);
+ outfit2.push(thomsCloset[1][2]);
+ outfit2.push(thomsCloset[2][0]);
+ console.log("Tomorrow we're wearing " + outfit2);
+ outfit3.push(kristynsCloset[2]);
+ outfit3.push(thomsCloset[1][3]);
+ outfit3.push(thomsCloset[0][2]);
+ console.log("Next week we're wearing " + outfit3);
