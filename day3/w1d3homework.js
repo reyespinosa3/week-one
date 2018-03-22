@@ -109,18 +109,28 @@ const thomsCloset = [
  // thomsCloset[2].push(kristynsShoe);
  // console.log(thomsCloset);
 
- let outfit1 = [];
- let outfit2 = [];
- let outfit3 = [];
- outfit1.push(kristynsCloset[0]);
- outfit1.push(thomsCloset[0][0]);
- outfit1.push(thomsCloset[1][0]);
- console.log("Today we're wearing " + outfit1);
- outfit2.push(kristynsCloset[1]);
- outfit2.push(thomsCloset[1][2]);
- outfit2.push(thomsCloset[2][0]);
- console.log("Tomorrow we're wearing " + outfit2);
- outfit3.push(kristynsCloset[2]);
- outfit3.push(thomsCloset[1][3]);
- outfit3.push(thomsCloset[0][2]);
- console.log("Next week we're wearing " + outfit3);
+ // let outfit1 = [];
+ // let outfit2 = [];
+ // let outfit3 = [];
+ // outfit1.push(kristynsCloset[0]);
+ // outfit1.push(thomsCloset[0][0]);
+ // outfit1.push(thomsCloset[1][0]);
+ // console.log("Today we're wearing " + outfit1);
+ // outfit2.push(kristynsCloset[1]);
+ // outfit2.push(thomsCloset[1][2]);
+ // outfit2.push(thomsCloset[2][0]);
+ // console.log("Tomorrow we're wearing " + outfit2);
+ // outfit3.push(kristynsCloset[2]);
+ // outfit3.push(thomsCloset[1][3]);
+ // outfit3.push(thomsCloset[0][2]);
+ // console.log("Next week we're wearing " + outfit3);
+
+
+//DIRTY LAUNDRY
+for (i=0; i<kristynsCloset.length; i++) {
+  console.log("WHIRR: Now washing " + kristynsCloset[i]);
+}
+
+for (i=0; i<thomsCloset.length; i++) {
+  console.log(thomsCloset[i]);
+}
