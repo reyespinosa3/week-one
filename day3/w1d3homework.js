@@ -63,3 +63,11 @@ matt[2] = "Gotham City";
 console.log(matt);
 kristyn[2] = "Brooklyn";
 console.log(kristyn);
+
+
+//YELL AT THE NINJA TURTLES
+var ninja = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+
+for (i=0; i<ninja.length; i++) {
+  console.log(ninja[i].toUpperCase());
+}
