@@ -144,3 +144,12 @@ for (i=0; i<1000; i++) {
   }
 }
 console.log(total);
+
+
+//TRIANGLES
+var bricks = "#";
+
+for (i=0; i<=7; i++) {
+  bricks += "#";
+  console.log(bricks);
+}
